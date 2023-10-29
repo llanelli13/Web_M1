@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+.left-content, .right-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon, .profile-icon {
+    width: 32px; 
+    height: 32px;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px; /* provides space between the links */
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
