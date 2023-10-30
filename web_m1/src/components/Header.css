@@ -19,7 +19,7 @@
 
 .navigation {
     display: flex;
-    gap: 20px; /* provides space between the links */
+    gap: 80px; /* provides space between the links */
 }
 
 .nav-link {

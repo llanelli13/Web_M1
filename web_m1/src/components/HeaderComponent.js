@@ -11,7 +11,6 @@ function Header() {
             </div>
 
             <nav className="navigation">
-                <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/teams">Équipes</Link>
                 <Link className="nav-link" to="/rules">Règlement</Link>
                 <Link className="nav-link" to="/results">Résultat</Link>
