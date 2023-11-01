@@ -23,7 +23,7 @@ const ChoicePage = () => {
         },
         {
             id: '4',
-            text: 'tetzaf',
+            text: 'tetza',
             diamond: false,
             game: 'game2',
         },
