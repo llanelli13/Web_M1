@@ -14,7 +14,7 @@ function Header() {
                 <Link className="nav-link" to="/teams">Équipes</Link>
                 <Link className="nav-link" to="/rules">Règlement</Link>
                 <Link className="nav-link" to="/results">Résultat</Link>
-                <Link className="nav-link" to="/Coice"> Choix</Link>
+                <Link className="nav-link" to="/Choice"> Choix</Link>
             </nav>
         </header>
     );

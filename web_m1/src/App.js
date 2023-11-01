@@ -7,20 +7,22 @@ import Results from './views/ResultsPage';
 import HomePage from './views/HomePage';
 import Profile from './views/ProfilePage';
 import ChoicePage from './views/ChoicePage';
+import TeamDetailPage from './views/TeamDetailPage';
 
 function App() {
     return (
         <div className="App">
-            <Header />
-            <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/teams" element={<Teams />} />
-                <Route path="/rules" element={<Rules />} />
-                <Route path="/results" element={<Results />} />
-                <Route path="/profile" element={<Profile />} />
-                <Route path="/Choice" element={<ChoicePage />} />
-            </Routes>
-        </div>
+        <Header />
+        <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/teams" element={<Teams />} />
+            <Route path="/teams/:teamName" element={<TeamDetailPage />} />
+            <Route path="/rules" element={<Rules />} />
+            <Route path="/results" element={<Results />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/Choice" element={<ChoicePage />} />
+        </Routes>
+    </div>
     );
 }
 
