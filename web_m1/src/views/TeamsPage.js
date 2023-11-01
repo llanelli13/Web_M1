@@ -1,10 +1,30 @@
-// src/views/Teams.js
-import React from 'react';
+// TeamsPage.js
+import React, { useState, useEffect } from 'react';
+import TeamCard from '../components/CardComponent';
+import './Style/TeamsPage.css';
 
-const Teams = () => {
+function TeamsPage() {
+    const [teams, setTeams] = useState([]);
+
+    useEffect(() => {
+        // Récupération des données des équipes depuis votre API
+        fetch('/api/teams')
+            .then(response => response.json())
+            .then(data => setTeams(data));
+    }, []);
+
     return (
-        <div>Teams Page</div>
+        <div className="teams-page">
+            <section className="filters">
+                {/* Vous pouvez ajouter des filtres ici plus tard si nécessaire */}
+                Filters:
+            </section>
+
+            <section className="teams-list">
+                {teams.map(team => <TeamCard key={team.id} team={team} />)}
+            </section>
+        </div>
     );
 }
 
-export default Teams;
+export default TeamsPage;

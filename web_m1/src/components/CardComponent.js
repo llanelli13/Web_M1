@@ -1,7 +1,13 @@
-function Card(props) {
+// TeamCard.js
+import React from 'react';
+
+function TeamCard({ team }) {
     return (
-        <div className="card">
-            <img src={props.logo} alt={props.name} />
+        <div className="team-card">
+            <img src={team.logo} alt={team.name} className="team-logo" />
+            <h2>{team.name}</h2>
         </div>
     );
 }
+
+export default TeamCard;
