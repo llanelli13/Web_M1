@@ -15,14 +15,6 @@ function TeamsPage() {
 
     return (
         <div className="teams-page">
-            <header>
-                <nav>
-                    <a href="/">Equipes</a>
-                    <a href="/rules">Règlement</a>
-                    <a href="/results">Résultat</a>
-                </nav>
-            </header>
-
             <section className="filters">
                 {/* Vous pouvez ajouter des filtres ici plus tard si nécessaire */}
                 Filters:

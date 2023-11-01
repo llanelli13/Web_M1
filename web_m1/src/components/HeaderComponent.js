@@ -14,13 +14,8 @@ function Header() {
                 <Link className="nav-link" to="/teams">Équipes</Link>
                 <Link className="nav-link" to="/rules">Règlement</Link>
                 <Link className="nav-link" to="/results">Résultat</Link>
+                <Link className="nav-link" to="/Coice"> Choix</Link>
             </nav>
-
-            <div className="right-content">
-                <Link to="/profile">
-                    <img className="profile-icon" src="path_to_profile_icon" alt="Profile" />
-                </Link>
-            </div>
         </header>
     );
 }

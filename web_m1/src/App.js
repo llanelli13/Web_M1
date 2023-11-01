@@ -6,6 +6,7 @@ import Rules from './views/RulesPage';
 import Results from './views/ResultsPage';
 import HomePage from './views/HomePage';
 import Profile from './views/ProfilePage';
+import ChoicePage from './views/ChoicePage';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Route path="/rules" element={<Rules />} />
                 <Route path="/results" element={<Results />} />
                 <Route path="/profile" element={<Profile />} />
+                <Route path="/Choice" element={<ChoicePage />} />
             </Routes>
         </div>
     );
