@@ -1,9 +1,11 @@
+/* Header.css */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 15px 20px;
     background-color: #333;
+    position: relative;
 }
 
 .left-content, .right-content {
@@ -12,14 +14,43 @@
 }
 
 .logo-icon, .profile-icon {
-    width: 32px; 
+    width: 32px;
     height: 32px;
     cursor: pointer;
 }
 
 .navigation {
     display: flex;
-    gap: 80px; /* provides space between the links */
+    justify-content: center;
+    flex: 1;
+    gap: 70px;
+}
+
+.menu-btn {
+    display: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white; /* Couleur du bouton de menu */
+}
+
+.drawer {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #333;
+    transition: left 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+.drawer.open {
+    left: 0;
 }
 
 .nav-link {
@@ -34,3 +65,15 @@
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+@media (max-width: 640px) {
+    .menu-btn {
+        display: block;
+    }
+    .navigation {
+        display: none;
+    }
+    .drawer {
+        display: flex;
+        z-index: 100;
+    }
+}

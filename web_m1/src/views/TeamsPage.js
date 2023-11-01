@@ -66,14 +66,13 @@ function TeamsPage() {
         { logo: DFMLogo, name: "DetonatioN FocusMe" , palmares: " ", region: "LJL" },
 
         { logo: R7Logo, name: "MovieStar R7" , palmares: " ", region: "LLA" },
-
-        
     ];
 
     const [filter, setFilter] = useState("");
     const filteredTeams = teams.filter(team => !filter || team.region === filter);
 
     return (
+    <div className='page'>
         <div className="container">
             <div className='filter'>
                 <select onChange={(e) => setFilter(e.target.value)}>
@@ -102,6 +101,7 @@ function TeamsPage() {
                 ))}
             </section>
         </div>
+    </div>
     );
 }
 
