@@ -1,4 +1,7 @@
 /* Header.css */
+.App {
+    background-color: rgb(232, 232, 232);
+}
 .header {
     display: flex;
     justify-content: space-between;

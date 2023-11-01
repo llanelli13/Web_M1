@@ -8,6 +8,7 @@ import HomePage from './views/HomePage';
 import Profile from './views/ProfilePage';
 import ChoicePage from './views/ChoicePage';
 import TeamDetailPage from './views/TeamDetailPage';
+import './components/Style/Header.css';
 
 function App() {
     return (
