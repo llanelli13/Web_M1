@@ -17,7 +17,6 @@ function HomePage() {
         <p className="demo-content">
           Regardez la démo ci-dessous pour comprendre le fonctionnement du jeu. C'est simple, rapide et amusant!
         </p>
-        {/* Vous pouvez intégrer une vidéo ou une animation de démo ici */}
         <div>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/1ZJrpFbQ_Lk?si=dy-EOpf1mnStQnkP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>

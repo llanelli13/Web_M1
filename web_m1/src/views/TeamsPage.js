@@ -9,17 +9,13 @@ function TeamsPage() {
     const filteredTeams = teamsData.filter(team => !filter || team.region === filter);
 
     const getTeamLogo = (logoFilename) => {
-        // Vous pouvez également utiliser une importation dynamique avec Webpack si require ne fonctionne pas
         return require(`./Logo/${logoFilename}`);
     };
-
-    // Obtenez une liste unique des régions pour le filtre
     const regions = Array.from(new Set(teamsData.map(team => team.region)));
 
     return (
         <div className='page'>
             <div className='container'>
-                {/* Ajout d'un sélecteur pour les régions */}
                 <div className='filter'>
                     <select value={filter} onChange={(e) => setFilter(e.target.value)}>
                         <option value="">Toutes les régions</option>

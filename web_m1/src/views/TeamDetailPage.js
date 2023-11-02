@@ -26,17 +26,19 @@ function TeamDetailPage() {
 
   return (
     <div className='team-detail-page'>
+      <div className='team-detail'>
         <h1>{teamDetails.name}</h1>
         <img src={logoPath} alt={`Logo de ${teamDetails.name}`} className="team-logo" />
         <p>Palmarès: {teamDetails.palmares}</p>
         <p>Joue en : {teamDetails.region}</p> 
+      </div>
 
-        {/* Section des réseaux sociaux */}
+  
         <h2>Réseaux sociaux</h2>
         <div className="social-media-links">
-          {teamDetails.social && teamDetails.social.map(sm => (
+          {teamDetails.socials && teamDetails.socials.map(sm => (
             <a key={sm.name} href={sm.lien} target="_blank" rel="noopener noreferrer">
-              <img src={require(`./Icons/${sm.icon}.png`)} alt={sm.name} className="social-icon" />
+              <img src={require(`./Icons/${sm.icon}`)} alt={sm.name} className="social-icon" />
             </a>
           ))}
         </div>
