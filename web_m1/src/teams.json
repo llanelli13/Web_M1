@@ -130,5 +130,17 @@
         "name": "Detonation FocusMe",
         "palmares": " ",
         "region": "LJL"
+    },
+    {
+        "logo": "KC.jpg",
+        "name": "Karmine Corp",
+        "palmares": "4x EUM",
+        "region": "LEC"
+    },    
+    {
+        "logo": "R7.jpg",
+        "name": "Movistar R7",
+        "palmares": " ",
+        "region": "LJL"
     }
 ]
