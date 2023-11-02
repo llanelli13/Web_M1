@@ -1,5 +1,6 @@
 /* Header.css */
 .App {
+    margin-top: 60px;
     background-color: rgb(232, 232, 232);
 }
 .header {
@@ -8,7 +9,10 @@
     align-items: center;
     padding: 15px 20px;
     background-color: #333;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
 }
 
 .left-content, .right-content {

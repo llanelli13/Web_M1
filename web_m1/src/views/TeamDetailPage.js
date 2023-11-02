@@ -1,43 +1,55 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import './Style/TeamDetailPage.css'; // Ajustez le chemin si nécessaire
-
-import teamsData from '../teams.json'; // Remplacez par le chemin correct de votre fichier JSON
+import './Style/TeamDetailPage.css';
+import teamsData from '../teams.json';
 
 function TeamDetailPage() {
   const { teamName } = useParams();
   const [teamDetails, setTeamDetails] = useState(null);
 
   useEffect(() => {
-    // Décoder l'URL pour s'assurer que les caractères spéciaux sont gérés correctement
     const decodedTeamName = decodeURIComponent(teamName);
-    // Trouver l'équipe dans le fichier JSON
     const team = teamsData.find((team) => team.name === decodedTeamName);
     console.log(decodedTeamName);
     console.log(team);
     setTeamDetails(team);
   }, [teamName]);
 
-
-  // Si les détails de l'équipe ne sont pas encore chargés, affichez un message ou un loader
   if (!teamDetails) {
     return <div>Loading...</div>;
   }
 
   const getTeamLogo = (logoFilename) => {
     return require(`./Logo/${logoFilename}`);
-};
-
-  // Supposons que vous avez une fonction `getLogoPath` pour obtenir le chemin du logo
+  };
   const logoPath = getTeamLogo(teamDetails.logo);
 
   return (
     <div className='team-detail-page'>
-      <h1>{teamDetails.name}</h1>
-      <img src={logoPath} alt={`Logo de ${teamDetails.name}`} />
-      <p>Palmarès: {teamDetails.palmares}</p>
-      <p>Région: {teamDetails.region}</p>
-      {/* Ajoutez ici plus de détails que vous voudriez afficher */}
+        <h1>{teamDetails.name}</h1>
+        <img src={logoPath} alt={`Logo de ${teamDetails.name}`} className="team-logo" />
+        <p>Palmarès: {teamDetails.palmares}</p>
+        <p>Joue en : {teamDetails.region}</p> 
+
+        {/* Section des réseaux sociaux */}
+        <h2>Réseaux sociaux</h2>
+        <div className="social-media-links">
+          {teamDetails.social && teamDetails.social.map(sm => (
+            <a key={sm.name} href={sm.lien} target="_blank" rel="noopener noreferrer">
+              <img src={require(`./Icons/${sm.icon}.png`)} alt={sm.name} className="social-icon" />
+            </a>
+          ))}
+        </div>
+
+        <h2>Joueurs</h2>
+          <ul className="player-list">
+          {teamDetails.players.map(player => (
+            <li key={player.name} className="player-item">
+              <img src={logoPath} alt={`Logo de ${teamDetails.name}`} className="player-logo" />
+              <span className="player-name">{player.name}</span> - <span className="player-role">{player.role}</span>
+            </li>
+          ))}
+        </ul>
     </div>
   );
 }
