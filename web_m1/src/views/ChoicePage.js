@@ -3,33 +3,33 @@ import '../components/Style/tree.css';
 
 const ChoicePage = () => {
     const teamNames = [
-        'Team A',
-        'Team B',
-        'Team C',
-        'Team D',
-        'Team E',
-        'Team F',
-        'Team G',
-        'Team H',
-        'Team I',
-        'Team J',
-        'Team K',
-        'Team L',
-        'Team M',
-        'Team N',
-        'Team O',
-        'Team P', 
+        'BDS',
+        'Mad Lions',
+        'LNG Esport',
+        'Weibo Gaming',
+        'KT Rolster',
+        'Dplus Kia',
+        'Cloud 9',
+        'Golden Guardians',
+        'PSG Talon',
+        'CTBC Flying Oyster',
+        'GAM Esport',
+        'Team Whales',
+        'LOUD',
+        'Detonation FocusMe',
+        'Movistar R7',
+        'Karmine Corp', 
     ];
 
     const teamNamesR2 = [
-        'Team Q',
-        'Team R',
-        'Team S',
-        'Team T',
-        'Team U',
-        'Team V',
-        'Team W',
-        'Team X',
+        'G2 Esport',
+        'Fnatic',
+        'Gen G',
+        'T1',
+        'JD Gaming',
+        'Bilibili Gaming',
+        'NRG',
+        'Team Liquid',
     ];
 
     const round1Matches = Array.from({ length: 8 }, (_, i) => ({
@@ -114,10 +114,18 @@ const ChoicePage = () => {
     };
 
 
+    const [roundsCompleted, setRoundsCompleted] = useState(
+        tournament.rounds.map(() => false)
+    );
+
     const handleWinnerSelection = (roundIndex, matchIndex, winner) => {
         const updatedTournament = { ...tournament };
         updatedTournament.rounds[roundIndex].matches[matchIndex].winner = winner;
-    
+
+        // Mettez à jour le round actuel comme terminé
+        const updatedRoundsCompleted = [...roundsCompleted];
+        updatedRoundsCompleted[roundIndex] = true;
+        setRoundsCompleted(updatedRoundsCompleted);
         if (roundIndex === 0) {
             // Transition du round 1 au round 2 : met à jour la team B du round 2
             const nextRound = updatedTournament.rounds[1];
@@ -158,12 +166,14 @@ const ChoicePage = () => {
                                     <div>
                                         <button
                                             onClick={() => handleWinnerSelection(roundIndex, matchIndex, match.teamA)}
+                                            className="button-bet"
                                         >
                                             {match.teamA}
                                         </button>
                                         vs
                                         <button
                                             onClick={() => handleWinnerSelection(roundIndex, matchIndex, match.teamB)}
+                                            className="button-bet"
                                         >
                                             {match.teamB}
                                         </button>
@@ -184,7 +194,7 @@ const ChoicePage = () => {
                 <h2>Teams</h2>
                 {availableTeams.map((team) => (
                     <div key={team}>
-                        <button onClick={() => handleTeamSelection(team)}>Select {team}</button>
+                        <button onClick={() => handleTeamSelection(team)} className="team-button">Select {team}</button>
                     </div>
                 ))}
             </div>
