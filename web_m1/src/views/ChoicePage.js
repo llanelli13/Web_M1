@@ -168,54 +168,70 @@ const ChoicePage = () => {
     };
     
 
-    const renderTournament = () => {
-        return (
-            <div className="rounds-container">
-                {tournament.rounds.map((round, roundIndex) => (
-                    <div key={round.id}>
-                        <h2>Round {roundIndex + 1}</h2>
-                        {round.matches.map((match, matchIndex) => (
-                            <div key={match.id}>
-                                {match.teamA !== null && match.teamB !== null && !match.winner && (
-                                    <div>
-                                        <button
-                                            onClick={() => handleWinnerSelection(roundIndex, matchIndex, match.teamA)}
-                                            className="button-bet"
-                                        >
-                                            {match.teamA}
-                                        </button>
-                                        vs
-                                        <button
-                                            onClick={() => handleWinnerSelection(roundIndex, matchIndex, match.teamB)}
-                                            className="button-bet"
-                                        >
-                                            {match.teamB}
-                                        </button>
-                                    </div>
-                                )}
-                                {match.winner && <p>Winner: {match.winner}</p>}
-                            </div>
-                        ))}
-                    </div>
-                ))}
-            </div>
-        );
-    };
-
+const renderTournament = () => {
     return (
         <div className="rounds-container">
-            <div className="team-list">
-                <h2>Teams</h2>
-                {availableTeams.map((team) => (
-                    <div key={team}>
-                        <button onClick={() => handleTeamSelection(team)} className="team-button">Select {team}</button>
-                    </div>
-                ))}
-            </div>
-            {renderTournament()}
-            <button onClick={handleShareClick} className="share-button">Partager</button>
+            {tournament.rounds.map((round, roundIndex) => (
+                <div key={round.id}>
+                    <h2>Round {roundIndex + 1}</h2>
+                    {round.matches.map((match, matchIndex) => (
+                        <div key={match.id}>
+                            {match.teamA !== null && match.teamB !== null && !match.winner && (
+                                <div>
+                                    <button
+                                        onClick={() => handleWinnerSelection(roundIndex, matchIndex, match.teamA)}
+                                        className="button-bet"
+                                    >
+                                        {match.teamA}
+                                    </button>
+                                    vs
+                                    <button
+                                        onClick={() => handleWinnerSelection(roundIndex, matchIndex, match.teamB)}
+                                        className="button-bet"
+                                    >
+                                        {match.teamB}
+                                    </button>
+                                </div>
+                            )}
+                            {match.winner && <p>Winner: {match.winner}</p>}
+                        </div>
+                    ))}
+                </div>
+            ))}
         </div>
     );
 };
 
+const renderChampion = () => {
+    const round5 = tournament.rounds[4];
+    const champion = round5.matches[0].winner;
+
+    if (champion) {
+        return (
+            <div className="champion">
+                <h2>Champion</h2>
+                <p>Congratulations to the winner: {champion}</p>
+                <div className="champion-emoji">🏆</div>
+            </div>
+        );
+    }
+
+    return null;
+};
+
+return (
+    <div className="rounds-container">
+        <div className="team-list">
+            <h2>Teams</h2>
+            {availableTeams.map((team) => (
+                <div key={team}>
+                    <button onClick={() => handleTeamSelection(team)} className="team-button">Select {team}</button>
+                </div>
+            ))}
+        </div>
+        {renderTournament()}
+        {renderChampion()}
+        <button onClick={handleShareClick} className="share-button">Partager</button>
+    </div>
+);}
 export default ChoicePage;
