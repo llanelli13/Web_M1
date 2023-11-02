@@ -1,0 +1,51 @@
+.home-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-header {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  
+  .description-section {
+    margin: 40px 0;
+  }
+  
+  .description-text {
+    font-size: 1.4rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .demo-section {
+    background-color: #f4f4f4;
+    padding: 30px;
+  }
+  
+  .demo-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .demo-content {
+    font-size: 1.2rem;
+  }
+  
+  .btn-start {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .btn-start:hover {
+    background-color: #0056b3;
+  }
+  

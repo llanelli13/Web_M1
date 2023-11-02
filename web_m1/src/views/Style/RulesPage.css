@@ -1,0 +1,26 @@
+.regulation-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .regulation-header {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .regulation-section {
+    margin-bottom: 30px;
+  }
+  
+  .regulation-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .regulation-content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
