@@ -2,151 +2,157 @@ import React, { useState } from 'react';
 import '../components/Style/tree.css';
 
 const ChoicePage = () => {
-    const teams = [
-        'Team 1',
-        'Team 2',
-        'Team 3',
-        'Team 4',
-        'Team 5',
-        'Team 6',
-        'Team 7',
-        'Team 8',
-        'Team 9',
-        'Team 10',
-        'Team 11',
-        'Team 12',
-        'Team 13',
-        'Team 14',
-        'Team 15',
-        'Team 16',
-        'Team 17',
-        'Team 18',
-        'Team 19',
-        'Team 20',
-        'Team 21',
-        'Team 22',
-        'Team 23',
-        'Team 24',
-    ];
-
-    const [selectedTeams, setSelectedTeams] = useState([]);
     const [tournament, setTournament] = useState({
         rounds: [
             {
                 id: 'round1',
+                matches: Array.from({ length: 16 }, (_, i) => ({
+                    id: `match${i + 1}`,
+                    teamA: null,
+                    teamB: null,
+                    winner: null,
+                })),
+            },
+            {
+                id: 'round2',
                 matches: [
-                    { id: 'match1', teamA: null, teamB: null, winner: null },
-                    { id: 'match2', teamA: null, teamB: null, winner: null },
-                    { id: 'match3', teamA: null, teamB: null, winner: null },
-                    { id: 'match4', teamA: null, teamB: null, winner: null },
-                    { id: 'match5', teamA: null, teamB: null, winner: null },
-                    { id: 'match6', teamA: null, teamB: null, winner: null },
-                    { id: 'match7', teamA: null, teamB: null, winner: null },
-                    { id: 'match8', teamA: null, teamB: null, winner: null },
-                    { id: 'match9', teamA: null, teamB: null, winner: null },
-                    { id: 'match10', teamA: null, teamB: null, winner: null },
-                    { id: 'match11', teamA: null, teamB: null, winner: null },
-                    { id: 'match12', teamA: null, teamB: null, winner: null },
+                    { id: 'match9', teamA: 17, teamB: 'Winner1', winner: null },
+                    { id: 'match10', teamA: 18, teamB: 'Winner2', winner: null },
+                    { id: 'match11', teamA: 19, teamB: 'Winner3', winner: null },
+                    { id: 'match12', teamA: 20, teamB: 'Winner4', winner: null },
+                    { id: 'match13', teamA: 21, teamB: 'Winner5', winner: null },
+                    { id: 'match14', teamA: 22, teamB: 'Winner6', winner: null },
+                    { id: 'match15', teamA: 23, teamB: 'Winner7', winner: null },
+                    { id: 'match16', teamA: 24, teamB: 'Winner8', winner: null },
+                ],
+            },
+            {
+                id: 'round3',
+                matches: [
+                    { id: 'match17', teamA: 'Winner9', teamB: 'Winner10', winner: null },
+                    { id: 'match18', teamA: 'Winner11', teamB: 'Winner12', winner: null },
+                    { id: 'match19', teamA: 'Winner13', teamB: 'Winner14', winner: null },
+                    { id: 'match20', teamA: 'Winner15', teamB: 'Winner16', winner: null },
+                ],
+            },
+            {
+                id: 'round4',
+                matches: [
+                    { id: 'match21', teamA: 'Winner17', teamB: 'Winner18', winner: null },
+                    { id: 'match22', teamA: 'Winner19', teamB: 'Winner20', winner: null },
+                ],
+            },
+            {
+                id: 'round5',
+                matches: [
+                    { id: 'match23', teamA: 'Winner21', teamB: 'Winner22', winner: null },
                 ],
             },
         ],
     });
 
+    const [availableTeams, setAvailableTeams] = useState(Array.from({ length: 16 }, (_, i) => i + 1));
+    const [selectedTeams, setSelectedTeams] = useState([]);
+
     const handleTeamSelection = (team) => {
-        if (selectedTeams.length < 2) {
-            setSelectedTeams([...selectedTeams, team]);
-        }
-    };
-
-    const handleMatchCreation = () => {
-        if (selectedTeams.length === 2) {
+        if (selectedTeams.length < 16) {
             const updatedTournament = { ...tournament };
-            const nextMatchIndex = updatedTournament.rounds[0].matches.findIndex(
-                (match) => !match.teamA && !match.teamB
-            );
+            const round1 = updatedTournament.rounds[0];
+            const nextAvailableTeams = availableTeams.filter((t) => t !== team);
+            const nextSelectedTeams = [...selectedTeams, team];
 
-            if (nextMatchIndex !== -1) {
-                updatedTournament.rounds[0].matches[nextMatchIndex].teamA = selectedTeams[0];
-                updatedTournament.rounds[0].matches[nextMatchIndex].teamB = selectedTeams[1];
-                setSelectedTeams([]);
-                setTournament(updatedTournament);
+            const matchIndex = Math.floor(selectedTeams.length / 2);
+            const match = round1.matches[matchIndex];
+            
+            if (match.teamA === null) {
+                match.teamA = team;
+            } else if (match.teamB === null) {
+                match.teamB = team;
             }
+
+            setTournament(updatedTournament);
+            setAvailableTeams(nextAvailableTeams);
+            setSelectedTeams(nextSelectedTeams);
         }
     };
 
     const handleWinnerSelection = (roundIndex, matchIndex, winner) => {
         const updatedTournament = { ...tournament };
         updatedTournament.rounds[roundIndex].matches[matchIndex].winner = winner;
-
-        if (roundIndex < tournament.rounds.length - 1) {
+    
+        if (roundIndex === 0) {
+            // Transition du round 1 au round 2 : met à jour la team B du round 2
+            const nextRound = updatedTournament.rounds[1];
+            const nextMatchIndex = matchIndex;
+    
+            if (nextRound && nextMatchIndex >= 0 && nextMatchIndex < nextRound.matches.length) {
+                const nextMatch = nextRound.matches[nextMatchIndex];
+                nextMatch.teamB = winner;
+            }
+        } else if (roundIndex < 4) {
+            // Pour les autres rounds, met à jour la prochaine round normalement
             const nextRound = updatedTournament.rounds[roundIndex + 1];
             const nextMatchIndex = Math.floor(matchIndex / 2);
             if (!nextRound.matches[nextMatchIndex]) {
                 nextRound.matches[nextMatchIndex] = { teamA: null, teamB: null, winner: null };
             }
             const nextMatch = nextRound.matches[nextMatchIndex];
-
+    
             if (matchIndex % 2 === 0) {
                 nextMatch.teamA = winner;
             } else {
                 nextMatch.teamB = winner;
             }
         }
-
+    
         setTournament(updatedTournament);
     };
-
-    const renderTournament = () => {
-        return tournament.rounds.map((round, roundIndex) => (
-            <div key={round.id}>
-                <h2>Round {roundIndex + 1}</h2>
-                {round.matches.map((match, matchIndex) => (
-                    <div key={match.id}>
-                        {match.teamA && match.teamB && !match.winner && (
-                            <div>
-                                <button onClick={() => handleWinnerSelection(roundIndex, matchIndex, match.teamA)}>
-                                    {match.teamA}
-                                </button>
-                                vs
-                                <button onClick={() => handleWinnerSelection(roundIndex, matchIndex, match.teamB)}>
-                                    {match.teamB}
-                                </button>
-                            </div>
-                        )}
-                        {match.winner && <p>Winner: {match.winner}</p>}
-                    </div>
-                ))}
+    
+    const renderTeamList = () => {
+        return availableTeams.map((team) => (
+            <div key={team}>
+                <button onClick={() => handleTeamSelection(team)}>Select Team {team}</button>
             </div>
         ));
     };
 
-    return (
-        <div className="tree-container">
-            <div>
-                <h2>Select Teams for Round 1</h2>
-                <div>
-                    {teams.map((team) => (
-                        <div
-                            key={team}
-                            onClick={() => handleTeamSelection(team)}
-                            style={{
-                                border: '1px solid #000',
-                                margin: '5px',
-                                padding: '5px',
-                                cursor: 'pointer',
-                            }}
-                        >
-                            {team}
-                        </div>
-                    ))}
+    const renderTournament = () => {
+        return (
+            <div className="rounds-container">
+                <div className="team-list">
+                    <h2>Teams</h2>
+                    {renderTeamList()}
                 </div>
-                {selectedTeams.length === 2 && (
-                    <button onClick={handleMatchCreation}>Create Match</button>
-                )}
+                {tournament.rounds.map((round, roundIndex) => (
+                    <div key={round.id}>
+                        <h2>Round {roundIndex + 1}</h2>
+                        {round.matches.map((match, matchIndex) => (
+                            <div key={match.id}>
+                                {match.teamA !== null && match.teamB !== null && !match.winner && (
+                                    <div>
+                                        <button
+                                            onClick={() => handleWinnerSelection(roundIndex, matchIndex, match.teamA)}
+                                        >
+                                            {match.teamA}
+                                        </button>
+                                        vs
+                                        <button
+                                            onClick={() => handleWinnerSelection(roundIndex, matchIndex, match.teamB)}
+                                        >
+                                            {match.teamB}
+                                        </button>
+                                    </div>
+                                )}
+                                {match.winner && <p>Winner: {match.winner}</p>}
+                            </div>
+                        ))}
+                    </div>
+                ))}
             </div>
-            {renderTournament()}
-        </div>
-    );
+        );
+    };
+
+    return <div>{renderTournament()}</div>;
 };
 
 export default ChoicePage;
