@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import '../components/Style/tree.css';
+import html2canvas from 'html2canvas';
+
 
 const ChoicePage = () => {
     const teamNames = [
@@ -154,6 +156,18 @@ const ChoicePage = () => {
         setTournament(updatedTournament);
     };
 
+    const handleShareClick = () => {
+        // Capturez le contenu de la page
+        html2canvas(document.body).then((canvas) => {
+            const screenshot = canvas.toDataURL('image/png');
+    
+            // Créez une fenêtre avec l'image capturée
+            const shareWindow = window.open('', 'Partager', 'width=600, height=400');
+            shareWindow.document.write('<img src="' + screenshot + '" alt="Screenshot" />');
+        });
+    };
+    
+
     const renderTournament = () => {
         return (
             <div className="rounds-container">
@@ -199,6 +213,7 @@ const ChoicePage = () => {
                 ))}
             </div>
             {renderTournament()}
+            <button onClick={handleShareClick} className="share-button">Partager</button>
         </div>
     );
 };

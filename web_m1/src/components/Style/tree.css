@@ -88,3 +88,22 @@
 .button-bet:hover {
   background-color: #0056b3;
 }
+
+/* tree.css */
+.share-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.share-button:hover {
+  background-color: #0056b3;
+}
