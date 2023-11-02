@@ -5,8 +5,9 @@
         "palmares": "10x LEC Winner",
         "region": "LEC",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}],
+            {"name": "Twitter", "lien": "https://twitter.com/G2esports", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@G2LoL", "icon": "YT.jpg"}],
+            
         "players": [
             {"name": "BrokenBlade", "role": "Toplaner"},
             {"name": "Yike", "role": "Jungler" },
@@ -17,11 +18,11 @@
     {
         "logo": "BDS.jpg",
         "name": "BDS",
-        "palmares": "x",
+        "palmares": "None",
         "region": "LEC",
         "socials": [
-            {"name": "Twitter","lien": ""},
-            {"name": "Youtube","lien": ""}],
+            {"name": "Twitter", "lien": "https://twitter.com/TeamBDS", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@TeamBDS_", "icon": "YT.jpg"}],
         "players": [
             {"name": "Adam","role": "Toplaner"},
             {"name": "Sheo","role": "Jungler"},
@@ -35,8 +36,8 @@
         "palmares": "x",
         "region": "LEC",
         "socials": [
-            {"name": "Twitter","lien": ""},
-            {"name": "Youtube","lien": ""}],
+            {"name": "Twitter", "lien": "https://twitter.com/FNATIC", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@fnatic", "icon": "YT.jpg"}],
         "players": [
             {"name": "Oscarinin","role": "Toplaner"},
             {"name": "Razork","role": "Jungler"},
@@ -50,8 +51,8 @@
         "palmares": "x",
         "region": "LEC",
         "socials": [
-            {"name": "Twitter","lien": ""},
-            {"name": "Youtube","lien": ""}],
+            {"name": "Twitter", "lien": "https://twitter.com/MADLions_EN", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@MADLionsLoL", "icon": "YT.jpg"}],
         "players": [
             {"name": "Chasy","role": "Toplaner"},
             {"name": "Elyoya","role": "Jungler"},
@@ -65,8 +66,8 @@
         "palmares": "4x EUM",
         "region": "LEC",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube","lien": ""}],
+            {"name": "Twitter", "lien": "https://twitter.com/KarmineCorp", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@Karmine_Corp", "icon": "YT.jpg"}],
         "players": [
             {"name": "Cabochard","role": "Toplaner"},
             {"name": "Cinkrof","role": "Jungler"},
@@ -80,8 +81,8 @@
         "palmares": "x",
         "region": "LPL",
         "socials": [
-            {"name": "Twitter","lien": ""},
-            {"name": "Youtube","lien": ""}],
+            {"name": "Twitter", "lien": "https://twitter.com/JDGaming", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "", "icon": "YT.jpg"}],
         "players": [
             {"name": "369","role": "Toplaner"},
             {"name": "Kanavi","role": "Jungler"},
@@ -96,8 +97,8 @@
         "palmares": " ",
         "region": "LPL",
         "socials": [
-            {"name": "Twitter","lien": ""},
-            {"name": "Youtube","lien": ""}],
+            {"name": "Twitter", "lien": "https://twitter.com/BilibiliGaming", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@BilibiliGaming", "icon": "YT.jpg"}],
         "players": [
             {"name": "Bin","role": "Toplaner"},
             {"name": "Xun","role": "Jungler"},
@@ -111,8 +112,8 @@
         "palmares": " ",
         "region": "LPL",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "https://twitter.com/LNG_Esports", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "Zika", "role": "Toplaner"},
@@ -129,8 +130,8 @@
         "palmares": " ",
         "region": "LPL",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "https://twitter.com/SinaWeibo", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@WBG_GAMING", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "TheShy", "role": "Toplaner"},
@@ -147,8 +148,8 @@
         "palmares": "x",
         "region": "LCK",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "https://twitter.com/SKT_TELECOM_T1", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@SKTT1", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "Zeus", "role": "Toplaner"},
@@ -164,8 +165,8 @@
         "palmares": " ",
         "region": "LCK",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@ktRolster_VOD", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "Kiin", "role": "Toplaner"},
@@ -182,8 +183,8 @@
         "palmares": " ",
         "region": "LCK",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "https://twitter.com/GenG", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@gengesports", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "Doran", "role": "Toplaner"},
@@ -200,8 +201,8 @@
         "palmares": " ",
         "region": "LCK",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "https://twitter.com/DplusKIA", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@DplusKIA_LOL", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "Canna", "role": "Toplaner"},
@@ -218,8 +219,8 @@
         "palmares": "x",
         "region": "NA",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "https://twitter.com/Cloud9", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@cloud9", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "Fudge", "role": "Toplaner"},
@@ -236,8 +237,8 @@
         "palmares": " ",
         "region": "NA",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "https://twitter.com/NRGgg", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@NRGEsports", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "Dohkla", "role": "Toplaner"},
@@ -253,8 +254,8 @@
         "palmares": " ",
         "region": "NA",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "https://twitter.com/TeamLiquid", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@TeamLiquidLoL", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "Summit", "role": "Toplaner"},
@@ -270,8 +271,8 @@
         "palmares": " ",
         "region": "NA",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "https://twitter.com/GoldenGuardians", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@GoldenGuardians", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "Licorice", "role": "Toplaner"},
@@ -287,8 +288,8 @@
         "palmares": " ",
         "region": "PCS",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "https://twitter.com/PSG_TALON", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@PSGTALON", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "Azhi", "role": "Toplaner"},
@@ -305,8 +306,8 @@
         "palmares": " ",
         "region": "PCS",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@ctbcflyingoyster7741/videos", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "Rest", "role": "Toplaner"},
@@ -322,8 +323,8 @@
         "palmares": " ",
         "region": "VCS",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "https://twitter.com/GAMesportsVN", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@GAMesportsVN", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "Kiaya", "role": "Toplaner"},
@@ -339,8 +340,8 @@
         "palmares": " ",
         "region": "VCS",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "https://twitter.com/TeamWhalesVN", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@TeamWhalesLoL", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "Sparda", "role": "Toplaner"},
@@ -356,8 +357,8 @@
         "palmares": " ",
         "region": "CBLOL",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "https://twitter.com/LOUDgg", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@LOUDgg", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "Robo", "role": "Toplaner"},
@@ -373,8 +374,8 @@
         "palmares": " ",
         "region": "LJL",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "https://twitter.com/team_detonation", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@DetonatioNFocusMe", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "apaMEN", "role": "Toplaner"},
@@ -390,8 +391,8 @@
         "palmares": " ",
         "region": "LJL",
         "socials": [
-            {"name": "Twitter", "lien": ""},
-            {"name": "Youtube", "lien": ""}
+            {"name": "Twitter", "lien": "https://twitter.com/Rainbow7lol", "icon": "T.jpg"},
+            {"name": "Youtube", "lien": "https://www.youtube.com/@Rainbow7Esports", "icon": "YT.jpg"}
         ],
         "players": [
             {"name": "Bong", "role": "Toplaner"},

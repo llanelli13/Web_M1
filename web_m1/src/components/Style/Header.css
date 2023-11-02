@@ -3,6 +3,13 @@
     margin-top: 60px;
     background-color: rgb(232, 232, 232);
 }
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -39,7 +46,7 @@
     background-color: transparent;
     border: none;
     font-size: 24px;
-    color: white; /* Couleur du bouton de menu */
+    color: white;
 }
 
 .drawer {
