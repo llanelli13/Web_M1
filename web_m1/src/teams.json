@@ -1,0 +1,140 @@
+[
+    {
+        "logo": "G2.jpg",
+        "name": "G2 Esport",
+        "palmares": "10x LEC Winner",
+        "region": "LEC"
+    },
+    {
+        "logo": "BDS.jpg",
+        "name": "BDS",
+        "palmares": "x",
+        "region": "LEC"
+    },
+    {
+        "logo": "FNC.jpg",
+        "name": "Fnatic",
+        "palmares": "x",
+        "region": "LEC"
+    },
+    {
+        "logo": "MAD.jpg",
+        "name": "Mad Lions",
+        "palmares": "x",
+        "region": "LEC"
+    },
+    {
+        "logo": "JDG.jpg",
+        "name": "JD Gaming",
+        "palmares": "x",
+        "region": "LPL"
+    },
+    {
+        "logo": "BLG.jpg",
+        "name": "Bilibili Gaming",
+        "palmares": " ",
+        "region": "LPL"
+    },
+    {
+        "logo": "LNG.jpg",
+        "name": "LNG Esport",
+        "palmares": " ",
+        "region": "LPL"
+    },
+    {
+        "logo": "WEIBO.jpg",
+        "name": "Weibo Gaming",
+        "palmares": " ",
+        "region": "LPL"
+    },
+    {
+        "logo": "T1.jpg",
+        "name": "T1",
+        "palmares": "x",
+        "region": "LCK"
+    },
+    {
+        "logo": "KT.jpg",
+        "name": "KT Rolster",
+        "palmares": " ",
+        "region": "LCK"
+    },
+    {
+        "logo": "GENG.jpg",
+        "name": "Gen G",
+        "palmares": " ",
+        "region": "LCK"
+    },
+    {
+        "logo": "DK.jpg",
+        "name": "Dplus Kia",
+        "palmares": " ",
+        "region": "LCK"
+    },
+    {
+        "logo": "C9.jpg",
+        "name": "Cloud 9",
+        "palmares": "x",
+        "region": "NA"
+    },
+    {
+        "logo": "NRG.jpg",
+        "name": "NRG",
+        "palmares": " ",
+        "region": "NA"
+    },
+    {
+        "logo": "TL.jpg",
+        "name": "Team Liquid",
+        "palmares": " ",
+        "region": "NA"
+    },
+    {
+        "logo": "GG.jpg",
+        "name": "Golden Guardians",
+        "palmares": " ",
+        "region": "NA"
+    },
+    {
+        "logo": "PSG.jpg",
+        "name": "PSG Talon",
+        "palmares": " ",
+        "region": "PCS"
+    },
+    {
+        "logo": "CBTC.jpg",
+        "name": "CTBC Flying Oyster",
+        "palmares": " ",
+        "region": "PCS"
+    },
+    {
+        "logo": "GAM.jpg",
+        "name": "GAM Esport",
+        "palmares": " ",
+        "region": "VCS"
+    },
+    {
+        "logo": "TW.jpg",
+        "name": "Team Whales",
+        "palmares": " ",
+        "region": "VCS"
+    },
+    {
+        "logo": "LOUD.jpg",
+        "name": "LOUD",
+        "palmares": " ",
+        "region": "CBLOL"
+    },
+    {
+        "logo": "DFM.jpg",
+        "name": "Detonation FocusMe",
+        "palmares": " ",
+        "region": "LJL"
+    },
+    {
+        "logo": "R7.jpg",
+        "name": "Movistar R7",
+        "palmares": " ",
+        "region": "LLA"
+    }
+]
