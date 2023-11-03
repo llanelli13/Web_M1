@@ -168,40 +168,44 @@ const ChoicePage = () => {
     };
     
 
-const renderTournament = () => {
-    return (
-        <div className="rounds-container">
-            {tournament.rounds.map((round, roundIndex) => (
-                <div key={round.id}>
-                    <h2>Round {roundIndex + 1}</h2>
-                    {round.matches.map((match, matchIndex) => (
-                        <div key={match.id}>
-                            {match.teamA !== null && match.teamB !== null && !match.winner && (
-                                <div>
-                                    <button
-                                        onClick={() => handleWinnerSelection(roundIndex, matchIndex, match.teamA)}
-                                        className="button-bet"
-                                    >
-                                        {match.teamA}
-                                    </button>
-                                    vs
-                                    <button
-                                        onClick={() => handleWinnerSelection(roundIndex, matchIndex, match.teamB)}
-                                        className="button-bet"
-                                    >
-                                        {match.teamB}
-                                    </button>
-                                </div>
-                            )}
-                            {match.winner && <p>Winner: {match.winner}</p>}
-                        </div>
-                    ))}
-                </div>
-            ))}
-        </div>
-    );
-};
-
+    const renderTournament = () => {
+        return (
+            <div className="rounds-container">
+                {tournament.rounds.map((round, roundIndex) => (
+                    <div key={round.id}>
+                        <h2>Round {roundIndex + 1}</h2> 
+                        {/* Titre du round, Round 1, Round 2, ... */}
+                        {round.matches.map((match, matchIndex) => (
+                            <div key={match.id}>
+                                {match.teamA !== null && match.teamB !== null && !match.winner && (
+                                    <div>
+                                        <button
+                                            onClick={() => handleWinnerSelection(roundIndex, matchIndex, match.teamA)}
+                                            className="button-bet"
+                                        >
+                                            {match.teamA}
+                                        </button>
+                                        {/* Bouton pour sélectionner teamA comme gagnant */}
+                                        vs
+                                        <button
+                                            onClick={() => handleWinnerSelection(roundIndex, matchIndex, match.teamB)}
+                                            className="button-bet"
+                                        >
+                                            {match.teamB}
+                                        </button>
+                                        {/* Bouton pour sélectionner teamB comme gagnant */}
+                                    </div>
+                                )}
+                                {match.winner && <p>Winner: {match.winner}</p>}
+                                {/* Affiche le gagnant s'il est défini */}
+                            </div>
+                        ))}
+                    </div>
+                ))}
+            </div>
+        );
+    };
+    
 const renderChampion = () => {
     const round5 = tournament.rounds[4];
     const champion = round5.matches[0].winner;
