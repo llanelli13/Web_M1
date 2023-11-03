@@ -32,7 +32,6 @@ function TeamsPage() {
                             <div className="team-card">
                                 <img src={getTeamLogo(team.logo)} alt={`Logo de ${team.name}`} />
                                 <p className="name">{team.name}</p>
-                                <p className="palmares">{team.palmares}</p>
                                 <p className="region">{team.region}</p>
                             </div>
                         </Link>
