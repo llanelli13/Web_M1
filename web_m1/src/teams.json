@@ -1,406 +1,642 @@
 [
-    {
-        "logo": "G2.jpg",
-        "name": "G2 Esport",
-        "palmares": "10x LEC Winner",
-        "region": "LEC",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/G2esports", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@G2LoL", "icon": "YT.jpg"}],
-            
-        "players": [
-            {"name": "BrokenBlade", "role": "Toplaner"},
-            {"name": "Yike", "role": "Jungler" },
-            {"name": "Caps", "role": "Midlaner"},
-            {"name": "Hans Sama", "role": "ADC"},
-            {"name": "MikyX", "role": "Support"}]
-    },
-    {
-        "logo": "BDS.jpg",
-        "name": "BDS",
-        "palmares": "None",
-        "region": "LEC",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/TeamBDS", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@TeamBDS_", "icon": "YT.jpg"}],
-        "players": [
-            {"name": "Adam","role": "Toplaner"},
-            {"name": "Sheo","role": "Jungler"},
-            {"name": "Nuc","role": "Midlaner"},
-            {"name": "Crownie","role": "ADC"},
-            {"name": "Labrov","role": "Support"}]
-    },
-    {
-        "logo": "FNC.jpg",
-        "name": "Fnatic",
-        "palmares": "x",
-        "region": "LEC",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/FNATIC", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@fnatic", "icon": "YT.jpg"}],
-        "players": [
-            {"name": "Oscarinin","role": "Toplaner"},
-            {"name": "Razork","role": "Jungler"},
-            {"name": "Humanoid","role": "Midlaner"},
-            {"name": "Noah","role": "ADC"},
-            {"name": "trymbi","role": "Support"}]
-    },
-    {
-        "logo": "MAD.jpg",
-        "name": "Mad Lions",
-        "palmares": "x",
-        "region": "LEC",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/MADLions_EN", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@MADLionsLoL", "icon": "YT.jpg"}],
-        "players": [
-            {"name": "Chasy","role": "Toplaner"},
-            {"name": "Elyoya","role": "Jungler"},
-            {"name": "Nisqy","role": "Midlaner"},
-            {"name": "Carzzy","role": "ADC"},  
-            {"name": "Hylissang","role": "Support"}]
-    },
-    {
-        "logo": "KC.jpg",
-        "name": "Karmine Corp",
-        "palmares": "4x EUM",
-        "region": "LEC",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/KarmineCorp", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@Karmine_Corp", "icon": "YT.jpg"}],
-        "players": [
-            {"name": "Cabochard","role": "Toplaner"},
-            {"name": "Cinkrof","role": "Jungler"},
-            {"name": "Saken","role": "Midlaner"},
-            {"name": "Caliste","role": "ADC"},
-            {"name": "Targamas","role": "Support"}]
-    },
-    {
-        "logo": "JDG.jpg",
-        "name": "JD Gaming",
-        "palmares": "x",
-        "region": "LPL",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/JDGaming", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "", "icon": "YT.jpg"}],
-        "players": [
-            {"name": "369","role": "Toplaner"},
-            {"name": "Kanavi","role": "Jungler"},
-            {"name": "Knight","role": "Midlaner"},
-            {"name": "Ruler","role": "ADC"},
-            {"name": "Missing","role": "Support"}
-]
-    },
-    {
-        "logo": "BLG.jpg",
-        "name": "Bilibili Gaming",
-        "palmares": " ",
-        "region": "LPL",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/BilibiliGaming", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@BilibiliGaming", "icon": "YT.jpg"}],
-        "players": [
-            {"name": "Bin","role": "Toplaner"},
-            {"name": "Xun","role": "Jungler"},
-            {"name": "Yagao","role": "Midlaner"},
-            {"name": "Elk","role": "ADC"},
-            {"name": "ON","role": "Support"}]
-    },
-    {
-        "logo": "LNG.jpg",
-        "name": "LNG Esport",
-        "palmares": " ",
-        "region": "LPL",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/LNG_Esports", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "Zika", "role": "Toplaner"},
-            {"name": "Tarzan", "role": "Jungler"},
-            {"name": "Scout", "role": "Midlaner"},
-            {"name": "Gala", "role": "ADC"},
-            {"name": "Hang", "role": "Support"}
-        ]
-    },
-    
-    {
-        "logo": "WEIBO.jpg",
-        "name": "Weibo Gaming",
-        "palmares": " ",
-        "region": "LPL",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/SinaWeibo", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@WBG_GAMING", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "TheShy", "role": "Toplaner"},
-            {"name": "Weiwei", "role": "Jungler"},
-            {"name": "Xiaho", "role": "Midlaner"},
-            {"name": "Light", "role": "ADC"},
-            {"name": "Crisp", "role": "Support"}
-        ]
-    },
-    
-    {
-        "logo": "T1.jpg",
-        "name": "T1",
-        "palmares": "x",
-        "region": "LCK",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/SKT_TELECOM_T1", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@SKTT1", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "Zeus", "role": "Toplaner"},
-            {"name": "Oner", "role": "Jungler"},
-            {"name": "Faker", "role": "Midlaner"},
-            {"name": "Gumayusi", "role": "ADC"},
-            {"name": "Keria", "role": "Support"}
-        ]
-    },
-    {
-        "logo": "KT.jpg",
-        "name": "KT Rolster",
-        "palmares": " ",
-        "region": "LCK",
-        "socials": [
-            {"name": "Twitter", "lien": "", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@ktRolster_VOD", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "Kiin", "role": "Toplaner"},
-            {"name": "Cuzz", "role": "Jungler"},
-            {"name": "Bdd", "role": "Midlaner"},
-            {"name": "Aiming", "role": "ADC"},
-            {"name": "Lehends", "role": "Support"}
-        ]
-    },
-    
-    {
-        "logo": "GENG.jpg",
-        "name": "Gen G",
-        "palmares": " ",
-        "region": "LCK",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/GenG", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@gengesports", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "Doran", "role": "Toplaner"},
-            {"name": "Peanut", "role": "Jungler"},
-            {"name": "Chovy", "role": "Midlaner"},
-            {"name": "Peyz", "role": "ADC"},
-            {"name": "Delight", "role": "Support"}
-        ]
-    },
-    
-    {
-        "logo": "DK.jpg",
-        "name": "Dplus Kia",
-        "palmares": " ",
-        "region": "LCK",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/DplusKIA", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@DplusKIA_LOL", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "Canna", "role": "Toplaner"},
-            {"name": "Canyon", "role": "Jungler"},
-            {"name": "Showmaker", "role": "Midlaner"},
-            {"name": "Deft", "role": "ADC"},
-            {"name": "Bible", "role": "Support"}
-        ]
-    },
-    
-    {
-        "logo": "C9.jpg",
-        "name": "Cloud 9",
-        "palmares": "x",
-        "region": "NA",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/Cloud9", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@cloud9", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "Fudge", "role": "Toplaner"},
-            {"name": "Blaber", "role": "Jungler"},
-            {"name": "EMENES", "role": "Midlaner"},
-            {"name": "Berserker", "role": "ADC"},
-            {"name": "Zven", "role": "Support"}
-        ]
-    },
-    
-    {
-        "logo": "NRG.jpg",
-        "name": "NRG",
-        "palmares": " ",
-        "region": "NA",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/NRGgg", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@NRGEsports", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "Dohkla", "role": "Toplaner"},
-            {"name": "Contractz", "role": "Jungler"},
-            {"name": "Palafox", "role": "Midlaner"},
-            {"name": "FBI", "role": "ADC"},
-            {"name": "IgNar", "role": "Support"}
-        ]
-    },
-    {
-        "logo": "TL.jpg",
-        "name": "Team Liquid",
-        "palmares": " ",
-        "region": "NA",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/TeamLiquid", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@TeamLiquidLoL", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "Summit", "role": "Toplaner"},
-            {"name": "Pyosik", "role": "Jungler"},
-            {"name": "APA", "role": "Midlaner"},
-            {"name": "Yeon", "role": "ADC"},
-            {"name": "CoreJJ", "role": "Support"}
-        ]
-    },
-    {
-        "logo": "GG.jpg",
-        "name": "Golden Guardians",
-        "palmares": " ",
-        "region": "NA",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/GoldenGuardians", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@GoldenGuardians", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "Licorice", "role": "Toplaner"},
-            {"name": "River", "role": "Jungler"},
-            {"name": "Gori", "role": "Midlaner"},
-            {"name": "Stixxay", "role": "ADC"},
-            {"name": "Huhi", "role": "Support"}
-        ]
-    },
-    {
-        "logo": "PSG.jpg",
-        "name": "PSG Talon",
-        "palmares": " ",
-        "region": "PCS",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/PSG_TALON", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@PSGTALON", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "Azhi", "role": "Toplaner"},
-            {"name": "Husha", "role": "Jungler"},
-            {"name": "Maple", "role": "Midlaner"},
-            {"name": "Wako", "role": "ADC"},
-            {"name": "Woody", "role": "Support"}
-        ]
-    },
-    
-    {
-        "logo": "CBTC.jpg",
-        "name": "CTBC Flying Oyster",
-        "palmares": " ",
-        "region": "PCS",
-        "socials": [
-            {"name": "Twitter", "lien": "", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@ctbcflyingoyster7741/videos", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "Rest", "role": "Toplaner"},
-            {"name": "Gemini", "role": "Jungler"},
-            {"name": "JimieN", "role": "Midlaner"},
-            {"name": "Shunn", "role": "ADC"},
-            {"name": "s1aytrue", "role": "Support"}
-        ]
-    },
-    {
-        "logo": "GAM.jpg",
-        "name": "GAM Esport",
-        "palmares": " ",
-        "region": "VCS",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/GAMesportsVN", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@GAMesportsVN", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "Kiaya", "role": "Toplaner"},
-            {"name": "Levi", "role": "Jungler"},
-            {"name": "Kati", "role": "Midlaner"},
-            {"name": "Slayder", "role": "ADC"},
-            {"name": "Palette", "role": "Support"}
-        ]
-    },
-    {
-        "logo": "TW.jpg",
-        "name": "Team Whales",
-        "palmares": " ",
-        "region": "VCS",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/TeamWhalesVN", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@TeamWhalesLoL", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "Sparda", "role": "Toplaner"},
-            {"name": "BeanJ", "role": "Jungler"},
-            {"name": "Glory", "role": "Midlaner"},
-            {"name": "Artemis", "role": "ADC"},
-            {"name": "Bie", "role": "Support"}
-        ]
-    },
-    {
-        "logo": "LOUD.jpg",
-        "name": "LOUD",
-        "palmares": " ",
-        "region": "CBLOL",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/LOUDgg", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@LOUDgg", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "Robo", "role": "Toplaner"},
-            {"name": "Croc", "role": "Jungler"},
-            {"name": "tinowns", "role": "Midlaner"},
-            {"name": "Route", "role": "ADC"},
-            {"name": "Ceos", "role": "Support"}
-        ]
-    },
-    {
-        "logo": "DFM.jpg",
-        "name": "Detonation FocusMe",
-        "palmares": " ",
-        "region": "LJL",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/team_detonation", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@DetonatioNFocusMe", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "apaMEN", "role": "Toplaner"},
-            {"name": "Steal", "role": "Jungler"},
-            {"name": "Aria", "role": "Midlaner"},
-            {"name": "Milan", "role": "ADC"},
-            {"name": "Harp", "role": "Support"}
-        ]
-    },
-    {
-        "logo": "R7.jpg",
-        "name": "Movistar R7",
-        "palmares": " ",
-        "region": "LJL",
-        "socials": [
-            {"name": "Twitter", "lien": "https://twitter.com/Rainbow7lol", "icon": "T.jpg"},
-            {"name": "Youtube", "lien": "https://www.youtube.com/@Rainbow7Esports", "icon": "YT.jpg"}
-        ],
-        "players": [
-            {"name": "Bong", "role": "Toplaner"},
-            {"name": "Oddie", "role": "Jungler"},
-            {"name": "Mireu", "role": "Midlaner"},
-            {"name": "Ceo", "role": "ADC"},
-            {"name": "Lyonz", "role": "Support"}
-        ]
-    }
-    
+	{
+		"logo": "G2.jpg",
+		"name": "G2 Esport",
+		"palmares": "10x LEC Winner",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "10",
+		"region": "LEC",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/G2esports",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@G2LoL",
+				"icon": "YT.jpg"
+			}
+		],
+
+		"players": [
+			{ "name": "BrokenBlade", "role": "Toplaner" },
+			{ "name": "Yike", "role": "Jungler" },
+			{ "name": "Caps", "role": "Midlaner" },
+			{ "name": "Hans Sama", "role": "ADC" },
+			{ "name": "MikyX", "role": "Support" }
+		]
+	},
+	{
+		"logo": "BDS.jpg",
+		"name": "BDS",
+		"palmares": "None",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "0",
+		"region": "LEC",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/TeamBDS",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@TeamBDS_",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Adam", "role": "Toplaner" },
+			{ "name": "Sheo", "role": "Jungler" },
+			{ "name": "Nuc", "role": "Midlaner" },
+			{ "name": "Crownie", "role": "ADC" },
+			{ "name": "Labrov", "role": "Support" }
+		]
+	},
+	{
+		"logo": "FNC.jpg",
+		"name": "Fnatic",
+		"palmares": "x",
+		"worlds-palmeres-count": "1",
+		"region-palmares-count": "7",
+		"region": "LEC",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/FNATIC",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@fnatic",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Oscarinin", "role": "Toplaner" },
+			{ "name": "Razork", "role": "Jungler" },
+			{ "name": "Humanoid", "role": "Midlaner" },
+			{ "name": "Noah", "role": "ADC" },
+			{ "name": "trymbi", "role": "Support" }
+		]
+	},
+	{
+		"logo": "MAD.jpg",
+		"name": "Mad Lions",
+		"palmares": "x",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "3",
+		"region": "LEC",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/MADLions_EN",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@MADLionsLoL",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Chasy", "role": "Toplaner" },
+			{ "name": "Elyoya", "role": "Jungler" },
+			{ "name": "Nisqy", "role": "Midlaner" },
+			{ "name": "Carzzy", "role": "ADC" },
+			{ "name": "Hylissang", "role": "Support" }
+		]
+	},
+	{
+		"logo": "KC.jpg",
+		"name": "Karmine Corp",
+		"palmares": "4x EUM",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "0",
+		"region": "LEC",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/KarmineCorp",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@Karmine_Corp",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Cabochard", "role": "Toplaner" },
+			{ "name": "Cinkrof", "role": "Jungler" },
+			{ "name": "Saken", "role": "Midlaner" },
+			{ "name": "Caliste", "role": "ADC" },
+			{ "name": "Targamas", "role": "Support" }
+		]
+	},
+	{
+		"logo": "JDG.jpg",
+		"name": "JD Gaming",
+		"palmares": "x",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "4",
+		"region": "LPL",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/JDGaming",
+				"icon": "T.jpg"
+			},
+			{ "name": "Youtube", "lien": "", "icon": "YT.jpg" }
+		],
+		"players": [
+			{ "name": "369", "role": "Toplaner" },
+			{ "name": "Kanavi", "role": "Jungler" },
+			{ "name": "Knight", "role": "Midlaner" },
+			{ "name": "Ruler", "role": "ADC" },
+			{ "name": "Missing", "role": "Support" }
+		]
+	},
+	{
+		"logo": "BLG.jpg",
+		"name": "Bilibili Gaming",
+		"palmares": " ",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "0",
+		"region": "LPL",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/BilibiliGaming",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@BilibiliGaming",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Bin", "role": "Toplaner" },
+			{ "name": "Xun", "role": "Jungler" },
+			{ "name": "Yagao", "role": "Midlaner" },
+			{ "name": "Elk", "role": "ADC" },
+			{ "name": "ON", "role": "Support" }
+		]
+	},
+	{
+		"logo": "LNG.jpg",
+		"name": "LNG Esport",
+		"palmares": " ",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "5",
+		"region": "LPL",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/LNG_Esports",
+				"icon": "T.jpg"
+			},
+			{ "name": "Youtube", "lien": "", "icon": "YT.jpg" }
+		],
+		"players": [
+			{ "name": "Zika", "role": "Toplaner" },
+			{ "name": "Tarzan", "role": "Jungler" },
+			{ "name": "Scout", "role": "Midlaner" },
+			{ "name": "Gala", "role": "ADC" },
+			{ "name": "Hang", "role": "Support" }
+		]
+	},
+
+	{
+		"logo": "WEIBO.jpg",
+		"name": "Weibo Gaming",
+		"palmares": " ",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "0",
+		"region": "LPL",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/SinaWeibo",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@WBG_GAMING",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "TheShy", "role": "Toplaner" },
+			{ "name": "Weiwei", "role": "Jungler" },
+			{ "name": "Xiaho", "role": "Midlaner" },
+			{ "name": "Light", "role": "ADC" },
+			{ "name": "Crisp", "role": "Support" }
+		]
+	},
+
+	{
+		"logo": "T1.jpg",
+		"name": "T1",
+		"palmares": "x",
+		"worlds-palmeres-count": "3",
+		"region-palmares-count": "10",
+		"region": "LCK",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/SKT_TELECOM_T1",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@SKTT1",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Zeus", "role": "Toplaner" },
+			{ "name": "Oner", "role": "Jungler" },
+			{ "name": "Faker", "role": "Midlaner" },
+			{ "name": "Gumayusi", "role": "ADC" },
+			{ "name": "Keria", "role": "Support" }
+		]
+	},
+	{
+		"logo": "KT.jpg",
+		"name": "KT Rolster",
+		"palmares": " ",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "2",
+		"region": "LCK",
+		"socials": [
+			{ "name": "Twitter", "lien": "", "icon": "T.jpg" },
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@ktRolster_VOD",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Kiin", "role": "Toplaner" },
+			{ "name": "Cuzz", "role": "Jungler" },
+			{ "name": "Bdd", "role": "Midlaner" },
+			{ "name": "Aiming", "role": "ADC" },
+			{ "name": "Lehends", "role": "Support" }
+		]
+	},
+
+	{
+		"logo": "GENG.jpg",
+		"name": "Gen G",
+		"palmares": " ",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "3",
+		"region": "LCK",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/GenG",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@gengesports",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Doran", "role": "Toplaner" },
+			{ "name": "Peanut", "role": "Jungler" },
+			{ "name": "Chovy", "role": "Midlaner" },
+			{ "name": "Peyz", "role": "ADC" },
+			{ "name": "Delight", "role": "Support" }
+		]
+	},
+
+	{
+		"logo": "DK.jpg",
+		"name": "Dplus Kia",
+		"palmares": " ",
+		"worlds-palmeres-count": "1",
+		"region-palmares-count": "2",
+		"region": "LCK",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/DplusKIA",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@DplusKIA_LOL",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Canna", "role": "Toplaner" },
+			{ "name": "Canyon", "role": "Jungler" },
+			{ "name": "Showmaker", "role": "Midlaner" },
+			{ "name": "Deft", "role": "ADC" },
+			{ "name": "Bible", "role": "Support" }
+		]
+	},
+
+	{
+		"logo": "C9.jpg",
+		"name": "Cloud 9",
+		"palmares": "x",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "6",
+		"region": "NA",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/Cloud9",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@cloud9",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Fudge", "role": "Toplaner" },
+			{ "name": "Blaber", "role": "Jungler" },
+			{ "name": "EMENES", "role": "Midlaner" },
+			{ "name": "Berserker", "role": "ADC" },
+			{ "name": "Zven", "role": "Support" }
+		]
+	},
+
+	{
+		"logo": "NRG.jpg",
+		"name": "NRG",
+		"palmares": " ",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "1",
+		"region": "NA",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/NRGgg",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@NRGEsports",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Dohkla", "role": "Toplaner" },
+			{ "name": "Contractz", "role": "Jungler" },
+			{ "name": "Palafox", "role": "Midlaner" },
+			{ "name": "FBI", "role": "ADC" },
+			{ "name": "IgNar", "role": "Support" }
+		]
+	},
+	{
+		"logo": "TL.jpg",
+		"name": "Team Liquid",
+		"palmares": " ",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "4",
+		"region": "NA",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/TeamLiquid",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@TeamLiquidLoL",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Summit", "role": "Toplaner" },
+			{ "name": "Pyosik", "role": "Jungler" },
+			{ "name": "APA", "role": "Midlaner" },
+			{ "name": "Yeon", "role": "ADC" },
+			{ "name": "CoreJJ", "role": "Support" }
+		]
+	},
+	{
+		"logo": "GG.jpg",
+		"name": "Golden Guardians",
+		"palmares": " ",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "0",
+		"region": "NA",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/GoldenGuardians",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@GoldenGuardians",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Licorice", "role": "Toplaner" },
+			{ "name": "River", "role": "Jungler" },
+			{ "name": "Gori", "role": "Midlaner" },
+			{ "name": "Stixxay", "role": "ADC" },
+			{ "name": "Huhi", "role": "Support" }
+		]
+	},
+	{
+		"logo": "PSG.jpg",
+		"name": "PSG Talon",
+		"palmares": " ",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "6",
+		"region": "PCS",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/PSG_TALON",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@PSGTALON",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Azhi", "role": "Toplaner" },
+			{ "name": "Husha", "role": "Jungler" },
+			{ "name": "Maple", "role": "Midlaner" },
+			{ "name": "Wako", "role": "ADC" },
+			{ "name": "Woody", "role": "Support" }
+		]
+	},
+
+	{
+		"logo": "CBTC.jpg",
+		"name": "CTBC Flying Oyster",
+		"palmares": " ",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "1",
+		"region": "PCS",
+		"socials": [
+			{ "name": "Twitter", "lien": "", "icon": "T.jpg" },
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@ctbcflyingoyster7741/videos",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Rest", "role": "Toplaner" },
+			{ "name": "Gemini", "role": "Jungler" },
+			{ "name": "JimieN", "role": "Midlaner" },
+			{ "name": "Shunn", "role": "ADC" },
+			{ "name": "s1aytrue", "role": "Support" }
+		]
+	},
+	{
+		"logo": "GAM.jpg",
+		"name": "GAM Esport",
+		"palmares": " ",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "9",
+		"region": "VCS",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/GAMesportsVN",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@GAMesportsVN",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Kiaya", "role": "Toplaner" },
+			{ "name": "Levi", "role": "Jungler" },
+			{ "name": "Kati", "role": "Midlaner" },
+			{ "name": "Slayder", "role": "ADC" },
+			{ "name": "Palette", "role": "Support" }
+		]
+	},
+	{
+		"logo": "TW.jpg",
+		"name": "Team Whales",
+		"palmares": " ",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "0",
+		"region": "VCS",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/TeamWhalesVN",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@TeamWhalesLoL",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Sparda", "role": "Toplaner" },
+			{ "name": "BeanJ", "role": "Jungler" },
+			{ "name": "Glory", "role": "Midlaner" },
+			{ "name": "Artemis", "role": "ADC" },
+			{ "name": "Bie", "role": "Support" }
+		]
+	},
+	{
+		"logo": "LOUD.jpg",
+		"name": "LOUD",
+		"palmares": " ",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "2",
+		"region": "CBLOL",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/LOUDgg",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@LOUDgg",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Robo", "role": "Toplaner" },
+			{ "name": "Croc", "role": "Jungler" },
+			{ "name": "tinowns", "role": "Midlaner" },
+			{ "name": "Route", "role": "ADC" },
+			{ "name": "Ceos", "role": "Support" }
+		]
+	},
+	{
+		"logo": "DFM.jpg",
+		"name": "Detonation FocusMe",
+		"palmares": " ",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "14",
+		"region": "LJL",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/team_detonation",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@DetonatioNFocusMe",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "apaMEN", "role": "Toplaner" },
+			{ "name": "Steal", "role": "Jungler" },
+			{ "name": "Aria", "role": "Midlaner" },
+			{ "name": "Milan", "role": "ADC" },
+			{ "name": "Harp", "role": "Support" }
+		]
+	},
+	{
+		"logo": "R7.jpg",
+		"name": "Movistar R7",
+		"palmares": " ",
+		"worlds-palmeres-count": "0",
+		"region-palmares-count": "0",
+		"region": "LJL",
+		"socials": [
+			{
+				"name": "Twitter",
+				"lien": "https://twitter.com/Rainbow7lol",
+				"icon": "T.jpg"
+			},
+			{
+				"name": "Youtube",
+				"lien": "https://www.youtube.com/@Rainbow7Esports",
+				"icon": "YT.jpg"
+			}
+		],
+		"players": [
+			{ "name": "Bong", "role": "Toplaner" },
+			{ "name": "Oddie", "role": "Jungler" },
+			{ "name": "Mireu", "role": "Midlaner" },
+			{ "name": "Ceo", "role": "ADC" },
+			{ "name": "Lyonz", "role": "Support" }
+		]
+	}
 ]
