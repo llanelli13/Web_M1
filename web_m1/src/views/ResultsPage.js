@@ -31,7 +31,7 @@ function ResultsPage() {
   return (
     <div className="page">
       <div className="container">
-        <div className="filter">
+        <div className="filter1">
           <select value={filter} onChange={(e) => setFilter(e.target.value)}>
             <option value="">Toutes les régions</option>
             {regions.map((region, index) => (
