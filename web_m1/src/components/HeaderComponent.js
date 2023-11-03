@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import './Style/Header.css';
+import home from '../views/Icons/home.jpg';
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +26,7 @@ function Header() {
         <header className="header">
             <div className="left-content">
                 <Link to="/">
-                    <img className="logo-icon" src="path_to_logo_image" alt="Home Logo" />
+                    <img className="logo-icon" src={home} alt="Home Logo" />
                 </Link>
             </div>
 

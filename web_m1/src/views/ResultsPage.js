@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../components/Style/Result.css";
+import "./Style/Result.css";
 import teamsData from "../teams.json";
 
 function ResultsPage() {
